@@ -1,0 +1,3 @@
+5-12-2010
+In App.Config adjust the connectionstring. And create the database.
+Running this program will create the tables and the relationships.
