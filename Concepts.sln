@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concepts.Core", "Concepts.Core\Concepts.Core.csproj", "{3BBD4767-C303-42C5-A78D-CE546704FD71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{67698F15-10B6-44E1-AB35-6F4F544722E5}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\NHibernate-3.0.0.Beta2-bin\Required_Bins\nhibernate-configuration.xsd = Lib\NHibernate-3.0.0.Beta2-bin\Required_Bins\nhibernate-configuration.xsd
+		Lib\NHibernate-3.0.0.Beta2-bin\Required_Bins\nhibernate-mapping.xsd = Lib\NHibernate-3.0.0.Beta2-bin\Required_Bins\nhibernate-mapping.xsd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concepts.Tasks", "Concepts.Tasks\Concepts.Tasks.csproj", "{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3BBD4767-C303-42C5-A78D-CE546704FD71}.Release|x86.ActiveCfg = Release|Any CPU
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Debug|x86.ActiveCfg = Debug|x86
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Debug|x86.Build.0 = Debug|x86
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Release|Any CPU.ActiveCfg = Release|x86
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Release|x86.ActiveCfg = Release|x86
+		{A7D9CEB1-56BE-4BDB-8A17-0ECFA2FE1269}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
